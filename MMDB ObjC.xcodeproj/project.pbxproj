@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC0CE3611B82BC3B003E4F20 /* apiKey.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC0CE3601B82BC3B003E4F20 /* apiKey.plist */; };
 		EC5D1FD21B81A07600BCFB81 /* placeholder-w92.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC5D1FD01B81A07600BCFB81 /* placeholder-w92.jpg */; };
 		EC5D1FD31B81A07600BCFB81 /* placeholder-w154.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC5D1FD11B81A07600BCFB81 /* placeholder-w154.jpg */; };
 		EC5D1FD61B81B20700BCFB81 /* StarView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5D1FD51B81B20700BCFB81 /* StarView.m */; };
+		EC93922D1C1F4D460063283E /* apiKey.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC93922C1C1F4D460063283E /* apiKey.plist */; };
 		EC9B283D1B7D855E0015B8D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9B283C1B7D855E0015B8D8 /* main.m */; };
 		EC9B28401B7D855E0015B8D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9B283F1B7D855E0015B8D8 /* AppDelegate.m */; };
 		EC9B28431B7D855E0015B8D8 /* MovieListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9B28421B7D855E0015B8D8 /* MovieListViewController.m */; };
@@ -35,13 +35,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EC0CE3601B82BC3B003E4F20 /* apiKey.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = apiKey.plist; sourceTree = "<group>"; };
-		EC5D1FCF1B81860C00BCFB81 /* MMDB-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDB-Prefix.pch"; sourceTree = "<group>"; };
+		EC5D1FCF1B81860C00BCFB81 /* MMDB ObjC-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDB ObjC-Prefix.pch"; sourceTree = "<group>"; };
 		EC5D1FD01B81A07600BCFB81 /* placeholder-w92.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "placeholder-w92.jpg"; sourceTree = "<group>"; };
 		EC5D1FD11B81A07600BCFB81 /* placeholder-w154.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "placeholder-w154.jpg"; sourceTree = "<group>"; };
 		EC5D1FD41B81B20700BCFB81 /* StarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarView.h; sourceTree = "<group>"; };
 		EC5D1FD51B81B20700BCFB81 /* StarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarView.m; sourceTree = "<group>"; };
-		EC9B28371B7D855E0015B8D8 /* MMDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC93922C1C1F4D460063283E /* apiKey.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = apiKey.plist; sourceTree = "<group>"; };
+		EC9B28371B7D855E0015B8D8 /* MMDB ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MMDB ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC9B283B1B7D855E0015B8D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC9B283C1B7D855E0015B8D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EC9B283E1B7D855E0015B8D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		EC9B28421B7D855E0015B8D8 /* MovieListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieListViewController.m; sourceTree = "<group>"; };
 		EC9B28471B7D855E0015B8D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EC9B284A1B7D855E0015B8D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		EC9B28501B7D855E0015B8D8 /* MMDBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMDBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9B28501B7D855E0015B8D8 /* MMDB ObjC.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MMDB ObjC.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC9B28551B7D855E0015B8D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC9B28561B7D855E0015B8D8 /* MMDBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMDBTests.m; sourceTree = "<group>"; };
 		EC9B28621B7D92DD0015B8D8 /* MovieDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieDetailsViewController.h; sourceTree = "<group>"; };
@@ -85,8 +85,8 @@
 		EC9B282E1B7D855D0015B8D8 = {
 			isa = PBXGroup;
 			children = (
-				EC9B28391B7D855E0015B8D8 /* MMDB */,
-				EC9B28531B7D855E0015B8D8 /* MMDBTests */,
+				EC9B28391B7D855E0015B8D8 /* MMDB ObjC */,
+				EC9B28531B7D855E0015B8D8 /* MMDB ObjCTests */,
 				EC9B28381B7D855E0015B8D8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,13 +94,13 @@
 		EC9B28381B7D855E0015B8D8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EC9B28371B7D855E0015B8D8 /* MMDB.app */,
-				EC9B28501B7D855E0015B8D8 /* MMDBTests.xctest */,
+				EC9B28371B7D855E0015B8D8 /* MMDB ObjC.app */,
+				EC9B28501B7D855E0015B8D8 /* MMDB ObjC.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EC9B28391B7D855E0015B8D8 /* MMDB */ = {
+		EC9B28391B7D855E0015B8D8 /* MMDB ObjC */ = {
 			isa = PBXGroup;
 			children = (
 				EC9B283E1B7D855E0015B8D8 /* AppDelegate.h */,
@@ -121,7 +121,8 @@
 				EC9B28611B7D8F490015B8D8 /* Resources */,
 				EC9B283A1B7D855E0015B8D8 /* Supporting Files */,
 			);
-			path = MMDB;
+			name = "MMDB ObjC";
+			path = "MMDB ObjC";
 			sourceTree = "<group>";
 		};
 		EC9B283A1B7D855E0015B8D8 /* Supporting Files */ = {
@@ -129,18 +130,19 @@
 			children = (
 				EC9B283B1B7D855E0015B8D8 /* Info.plist */,
 				EC9B283C1B7D855E0015B8D8 /* main.m */,
-				EC5D1FCF1B81860C00BCFB81 /* MMDB-Prefix.pch */,
+				EC5D1FCF1B81860C00BCFB81 /* MMDB ObjC-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		EC9B28531B7D855E0015B8D8 /* MMDBTests */ = {
+		EC9B28531B7D855E0015B8D8 /* MMDB ObjCTests */ = {
 			isa = PBXGroup;
 			children = (
 				EC9B28561B7D855E0015B8D8 /* MMDBTests.m */,
 				EC9B28541B7D855E0015B8D8 /* Supporting Files */,
 			);
-			path = MMDBTests;
+			name = "MMDB ObjCTests";
+			path = "MMDB ObjCTests";
 			sourceTree = "<group>";
 		};
 		EC9B28541B7D855E0015B8D8 /* Supporting Files */ = {
@@ -166,7 +168,7 @@
 				EC9B28471B7D855E0015B8D8 /* Images.xcassets */,
 				EC5D1FD01B81A07600BCFB81 /* placeholder-w92.jpg */,
 				EC5D1FD11B81A07600BCFB81 /* placeholder-w154.jpg */,
-				EC0CE3601B82BC3B003E4F20 /* apiKey.plist */,
+				EC93922C1C1F4D460063283E /* apiKey.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -174,9 +176,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EC9B28361B7D855D0015B8D8 /* MMDB */ = {
+		EC9B28361B7D855D0015B8D8 /* MMDB ObjC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC9B285A1B7D855E0015B8D8 /* Build configuration list for PBXNativeTarget "MMDB" */;
+			buildConfigurationList = EC9B285A1B7D855E0015B8D8 /* Build configuration list for PBXNativeTarget "MMDB ObjC" */;
 			buildPhases = (
 				EC9B28331B7D855D0015B8D8 /* Sources */,
 				EC9B28341B7D855D0015B8D8 /* Frameworks */,
@@ -186,14 +188,14 @@
 			);
 			dependencies = (
 			);
-			name = MMDB;
+			name = "MMDB ObjC";
 			productName = MMDB;
-			productReference = EC9B28371B7D855E0015B8D8 /* MMDB.app */;
+			productReference = EC9B28371B7D855E0015B8D8 /* MMDB ObjC.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EC9B284F1B7D855E0015B8D8 /* MMDBTests */ = {
+		EC9B284F1B7D855E0015B8D8 /* MMDB ObjCTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC9B285D1B7D855E0015B8D8 /* Build configuration list for PBXNativeTarget "MMDBTests" */;
+			buildConfigurationList = EC9B285D1B7D855E0015B8D8 /* Build configuration list for PBXNativeTarget "MMDB ObjCTests" */;
 			buildPhases = (
 				EC9B284C1B7D855E0015B8D8 /* Sources */,
 				EC9B284D1B7D855E0015B8D8 /* Frameworks */,
@@ -204,9 +206,9 @@
 			dependencies = (
 				EC9B28521B7D855E0015B8D8 /* PBXTargetDependency */,
 			);
-			name = MMDBTests;
+			name = "MMDB ObjCTests";
 			productName = MMDBTests;
-			productReference = EC9B28501B7D855E0015B8D8 /* MMDBTests.xctest */;
+			productReference = EC9B28501B7D855E0015B8D8 /* MMDB ObjC.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -227,7 +229,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EC9B28321B7D855D0015B8D8 /* Build configuration list for PBXProject "MMDB" */;
+			buildConfigurationList = EC9B28321B7D855D0015B8D8 /* Build configuration list for PBXProject "MMDB ObjC" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -240,8 +242,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EC9B28361B7D855D0015B8D8 /* MMDB */,
-				EC9B284F1B7D855E0015B8D8 /* MMDBTests */,
+				EC9B28361B7D855D0015B8D8 /* MMDB ObjC */,
+				EC9B284F1B7D855E0015B8D8 /* MMDB ObjCTests */,
 			);
 		};
 /* End PBXProject section */
@@ -252,7 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC5D1FD21B81A07600BCFB81 /* placeholder-w92.jpg in Resources */,
-				EC0CE3611B82BC3B003E4F20 /* apiKey.plist in Resources */,
+				EC93922D1C1F4D460063283E /* apiKey.plist in Resources */,
 				EC9B284B1B7D855E0015B8D8 /* LaunchScreen.xib in Resources */,
 				EC9B286C1B7DB6530015B8D8 /* MovieDetailsViewController.xib in Resources */,
 				EC5D1FD31B81A07600BCFB81 /* placeholder-w154.jpg in Resources */,
@@ -298,7 +300,7 @@
 /* Begin PBXTargetDependency section */
 		EC9B28521B7D855E0015B8D8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EC9B28361B7D855D0015B8D8 /* MMDB */;
+			target = EC9B28361B7D855D0015B8D8 /* MMDB ObjC */;
 			targetProxy = EC9B28511B7D855E0015B8D8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -399,11 +401,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = "MMDB/MMDB-Prefix.pch";
-				INFOPLIST_FILE = MMDB/Info.plist;
+				GCC_PREFIX_HEADER = "MMDB ObjC/MMDB ObjC-Prefix.pch";
+				INFOPLIST_FILE = "MMDB ObjC/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "MMDB ObjC";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -412,11 +414,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = "MMDB/MMDB-Prefix.pch";
-				INFOPLIST_FILE = MMDB/Info.plist;
+				GCC_PREFIX_HEADER = "MMDB ObjC/MMDB ObjC-Prefix.pch";
+				INFOPLIST_FILE = "MMDB ObjC/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "MMDB ObjC";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -433,10 +435,10 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = MMDBTests/Info.plist;
+				INFOPLIST_FILE = "MMDB ObjCTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MMDB.app/MMDB";
+				PRODUCT_NAME = "MMDB ObjC";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MMDB ObjC.app/MMDB ObjC";
 			};
 			name = Debug;
 		};
@@ -448,17 +450,17 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = MMDBTests/Info.plist;
+				INFOPLIST_FILE = "MMDB ObjCTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MMDB.app/MMDB";
+				PRODUCT_NAME = "MMDB ObjC";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MMDB ObjC.app/MMDB ObjC";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EC9B28321B7D855D0015B8D8 /* Build configuration list for PBXProject "MMDB" */ = {
+		EC9B28321B7D855D0015B8D8 /* Build configuration list for PBXProject "MMDB ObjC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EC9B28581B7D855E0015B8D8 /* Debug */,
@@ -467,7 +469,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EC9B285A1B7D855E0015B8D8 /* Build configuration list for PBXNativeTarget "MMDB" */ = {
+		EC9B285A1B7D855E0015B8D8 /* Build configuration list for PBXNativeTarget "MMDB ObjC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EC9B285B1B7D855E0015B8D8 /* Debug */,
@@ -476,7 +478,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EC9B285D1B7D855E0015B8D8 /* Build configuration list for PBXNativeTarget "MMDBTests" */ = {
+		EC9B285D1B7D855E0015B8D8 /* Build configuration list for PBXNativeTarget "MMDB ObjCTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EC9B285E1B7D855E0015B8D8 /* Debug */,

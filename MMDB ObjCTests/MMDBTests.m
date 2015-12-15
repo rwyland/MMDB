@@ -61,7 +61,7 @@
 - (void)receivedMovieDetails:(Movie *)movie {
     XCTAssertNotNil(movie, @"movie returned in response is nil");
     XCTAssertEqualObjects(movie.id, @11);
-    XCTAssertEqualObjects(movie.title, @"Star Wars: Episode IV - A New Hope");
+    XCTAssertEqualObjects(movie.title, @"Star Wars");
     XCTAssertEqualObjects(movie.poster_path, @"/tvSlBzAdRE29bZe5yYWrJ2ds137.jpg");
     XCTAssertEqualObjects(movie.release_date, @"1977-05-25");
     XCTAssertEqualObjects(movie.runtime, @121);
